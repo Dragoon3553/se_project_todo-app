@@ -1,17 +1,23 @@
 # Simple Todo App
 
-Give a brief description of the project here. Feel free to give it a different name.
+This is a todo app that allows you to add and check off current todos.
 
 ## Functionality
 
-Give a more detailed explanation of the project and its functionality.
+This app allows you to add new todos, with the option of adding a completion date. If you need to delete a todo because you no longer need it or because you made one by accident, that option is available as well.
 
 ## Technology
 
-Give a description of the technologies and techniques used. Pictures, GIFs, or screenshots that detail the project features are recommended.
+This project uses the following Tech stack
+
+- HTML
+- CSS
+- Modular JavaScript
+- Media Queries
+- Flexbox
 
 ## Deployment
 
 This project is deployed on GitHub Pages:
 
-- ADD LINK HERE
+- [Todo App](https://dragoon3553.github.io/se_project_todo-app/)
