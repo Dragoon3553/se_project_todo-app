@@ -15,6 +15,8 @@ This project uses the following Tech stack
 - Modular JavaScript
 - Media Queries
 - Flexbox
+- JavaScript Classes
+- OOP
 
 ## Deployment
 
