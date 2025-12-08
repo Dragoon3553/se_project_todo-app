@@ -35,8 +35,8 @@ const section = new Section({
   items: initialTodos, // pass initial todos
   renderer: (item) => {
     const todo = new Todo(item, "#todo-template", handleCheck, handleDelete);
-    const renderEl = todo.getView();
-    section.addItem(renderEl);
+    const renderElement = todo.getView();
+    section.addItem(renderElement);
   },
   containerSelector: ".todos__list",
 });

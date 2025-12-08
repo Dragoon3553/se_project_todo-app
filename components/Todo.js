@@ -12,7 +12,7 @@ class Todo {
   _setEventListeners() {
     this._todoDeleteBtn.addEventListener("click", () => {
       this._handleDelete(this._completed);
-      this._handeRemove();
+      this._remove();
     });
     this._todoCheckboxEl.addEventListener("change", () => {
       this._toggleCompletion();
@@ -57,7 +57,7 @@ class Todo {
     this._completed = !this._completed;
   }
 
-  _handeRemove() {
+  _remove() {
     this._element.remove();
     this._element = null;
   }
